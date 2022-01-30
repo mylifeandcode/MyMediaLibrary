@@ -1,0 +1,31 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/ClientSide/node_modules
+/ClientSide/.pnp
+/ClientSide/.pnp.js
+
+# testing
+/ClientSide/coverage
+
+# production
+/ClientSide/build
+
+# misc
+/ClientSide/.DS_Store
+/ClientSide/.env.local
+/ClientSide/.env.development.local
+/ClientSide/.env.test.local
+/ClientSide/.env.production.local
+
+/ClientSide/npm-debug.log*
+/ClientSide/yarn-debug.log*
+/ClientSide/yarn-error.log*
+
+/ServerSide/.vs
+/ServerSide/**/*.csproj.user
+/ServerSide/**/bin
+/ServerSide/**/obj
+/ServerSide/**/Properties/launchSettings.json
+
+
