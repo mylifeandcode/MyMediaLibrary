@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "85b8479d-0883-4056-b88f-09c13469bbc1": {
+      "ProjectGuid": "85b8479d-0883-4056-b88f-09c13469bbc1",
+      "DisplayName": "MyMediaLibrary.API",
+      "ColorIndex": 0
+    },
+    "519f03f9-f153-476d-af5f-7fa7858c386a": {
+      "ProjectGuid": "519f03f9-f153-476d-af5f-7fa7858c386a",
+      "DisplayName": "MyMediaLibrary.Domain",
+      "ColorIndex": 1
+    },
+    "aaabb80f-fbc2-43b5-a3e2-fa0a043bfabd": {
+      "ProjectGuid": "aaabb80f-fbc2-43b5-a3e2-fa0a043bfabd",
+      "DisplayName": "MyMediaLibrary.Domain",
+      "ColorIndex": 2
+    },
+    "cbfeeeb5-27da-48ee-9f31-5f13aa8516af": {
+      "ProjectGuid": "cbfeeeb5-27da-48ee-9f31-5f13aa8516af",
+      "DisplayName": "MyMediaLibrary.Data",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

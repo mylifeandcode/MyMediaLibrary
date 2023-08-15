@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "B2k4/Pp76PRqxR/I9J1XSHvztwZst10/uMd277vb2wIkwUhx7FHT7En0wOXBcuvaE/Afl6Whj+udVtqKHF6S3Q==",
+  "success": true,
+  "projectFilePath": "C:\\DevForFun\\MyMediaLibrary\\ServerSide\\MyMediaLibrary.Domain\\MyMediaLibrary.Domain.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.abim.org/api/v2/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

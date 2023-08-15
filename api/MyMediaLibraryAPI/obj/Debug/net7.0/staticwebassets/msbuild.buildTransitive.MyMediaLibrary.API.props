@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MyMediaLibrary.API.props" />
+</Project>

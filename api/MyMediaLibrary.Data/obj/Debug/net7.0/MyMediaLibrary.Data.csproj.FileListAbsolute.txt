@@ -1,0 +1,12 @@
+C:\DevForFun\MyMediaLibrary\ServerSide\MyMediaLibrary.Data\bin\Debug\net7.0\MyMediaLibrary.Data.deps.json
+C:\DevForFun\MyMediaLibrary\ServerSide\MyMediaLibrary.Data\bin\Debug\net7.0\MyMediaLibrary.Data.dll
+C:\DevForFun\MyMediaLibrary\ServerSide\MyMediaLibrary.Data\bin\Debug\net7.0\MyMediaLibrary.Data.pdb
+C:\DevForFun\MyMediaLibrary\ServerSide\MyMediaLibrary.Data\obj\Debug\net7.0\MyMediaLibrary.Data.csproj.AssemblyReference.cache
+C:\DevForFun\MyMediaLibrary\ServerSide\MyMediaLibrary.Data\obj\Debug\net7.0\MyMediaLibrary.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevForFun\MyMediaLibrary\ServerSide\MyMediaLibrary.Data\obj\Debug\net7.0\MyMediaLibrary.Data.AssemblyInfoInputs.cache
+C:\DevForFun\MyMediaLibrary\ServerSide\MyMediaLibrary.Data\obj\Debug\net7.0\MyMediaLibrary.Data.AssemblyInfo.cs
+C:\DevForFun\MyMediaLibrary\ServerSide\MyMediaLibrary.Data\obj\Debug\net7.0\MyMediaLibrary.Data.csproj.CoreCompileInputs.cache
+C:\DevForFun\MyMediaLibrary\ServerSide\MyMediaLibrary.Data\obj\Debug\net7.0\MyMediaLibrary.Data.dll
+C:\DevForFun\MyMediaLibrary\ServerSide\MyMediaLibrary.Data\obj\Debug\net7.0\refint\MyMediaLibrary.Data.dll
+C:\DevForFun\MyMediaLibrary\ServerSide\MyMediaLibrary.Data\obj\Debug\net7.0\MyMediaLibrary.Data.pdb
+C:\DevForFun\MyMediaLibrary\ServerSide\MyMediaLibrary.Data\obj\Debug\net7.0\ref\MyMediaLibrary.Data.dll

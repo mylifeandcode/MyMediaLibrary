@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MyMediaLibrary.API.props" />
+</Project>
