@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DevForFun\\MyMediaLibrary\\ServerSide\\MyMediaLibrary.Domain\\MyMediaLibrary.Domain.csproj": {}
+    "C:\\DevForFun\\MyMediaLibrary\\api\\MyMediaLibrary.Domain\\MyMediaLibrary.Domain.csproj": {}
   },
   "projects": {
-    "C:\\DevForFun\\MyMediaLibrary\\ServerSide\\MyMediaLibrary.Domain\\MyMediaLibrary.Domain.csproj": {
+    "C:\\DevForFun\\MyMediaLibrary\\api\\MyMediaLibrary.Domain\\MyMediaLibrary.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DevForFun\\MyMediaLibrary\\ServerSide\\MyMediaLibrary.Domain\\MyMediaLibrary.Domain.csproj",
+        "projectUniqueName": "C:\\DevForFun\\MyMediaLibrary\\api\\MyMediaLibrary.Domain\\MyMediaLibrary.Domain.csproj",
         "projectName": "MyMediaLibrary.Domain",
-        "projectPath": "C:\\DevForFun\\MyMediaLibrary\\ServerSide\\MyMediaLibrary.Domain\\MyMediaLibrary.Domain.csproj",
+        "projectPath": "C:\\DevForFun\\MyMediaLibrary\\api\\MyMediaLibrary.Domain\\MyMediaLibrary.Domain.csproj",
         "packagesPath": "C:\\Users\\AHummel\\.nuget\\packages\\",
-        "outputPath": "C:\\DevForFun\\MyMediaLibrary\\ServerSide\\MyMediaLibrary.Domain\\obj\\",
+        "outputPath": "C:\\DevForFun\\MyMediaLibrary\\api\\MyMediaLibrary.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     }

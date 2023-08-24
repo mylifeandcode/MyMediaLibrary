@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B2k4/Pp76PRqxR/I9J1XSHvztwZst10/uMd277vb2wIkwUhx7FHT7En0wOXBcuvaE/Afl6Whj+udVtqKHF6S3Q==",
+  "dgSpecHash": "McQS+h4LcKwI/0lZDswVqxet1NBkJ04OVTzs0RfA5XNLM/5jHc6TSdsj8taL6rirybejehuSQPPhpUhMKZIIZg==",
   "success": true,
-  "projectFilePath": "C:\\DevForFun\\MyMediaLibrary\\ServerSide\\MyMediaLibrary.Domain\\MyMediaLibrary.Domain.csproj",
+  "projectFilePath": "C:\\DevForFun\\MyMediaLibrary\\api\\MyMediaLibrary.Domain\\MyMediaLibrary.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
