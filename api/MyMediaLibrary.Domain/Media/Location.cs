@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyMediaLibrary.Domain
+namespace MyMediaLibrary.Domain.Media
 {
     /// <summary>
     /// The location where the media can be found.

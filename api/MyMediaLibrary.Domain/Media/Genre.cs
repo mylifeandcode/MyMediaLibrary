@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyMediaLibrary.Domain
+namespace MyMediaLibrary.Domain.Media
 {
-    public class Genre : MediaEntity
+    public class Genre : MediaLibraryEntity
     {
         /// <summary>
         /// If a genre is specific to one or more categories, they are associated here.

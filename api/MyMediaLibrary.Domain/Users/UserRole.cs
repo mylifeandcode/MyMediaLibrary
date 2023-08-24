@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyMediaLibrary.Application.Security.Services
+namespace MyMediaLibrary.Domain.Users
 {
-    public class AuthService
+    public enum UserRole
     {
+        Standard = 1,
+        Administrator = 2
     }
 }

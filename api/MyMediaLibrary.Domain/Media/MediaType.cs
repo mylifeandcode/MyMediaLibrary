@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyMediaLibrary.Domain
+namespace MyMediaLibrary.Domain.Media
 {
     /// <summary>
     /// The type of media
@@ -12,7 +12,7 @@ namespace MyMediaLibrary.Domain
     /// <example>
     /// Audio, Video, Ebook, etc
     /// </example>
-    public class MediaType : MediaEntity
+    public class MediaType : MediaLibraryEntity
     {
     }
 }

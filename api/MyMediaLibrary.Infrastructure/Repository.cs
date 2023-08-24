@@ -1,4 +1,4 @@
-﻿using MyMediaLibrary.Domain;
+﻿using MyMediaLibrary.Domain.Media;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MyMediaLibrary.Infrastructure.Data
 {
-    public class Repository<TEntity> : IRepository<TEntity> where TEntity : MediaEntity
+    public class Repository<TEntity> : IRepository<TEntity> where TEntity : MediaLibraryEntity
     {
         public TEntity Add(TEntity entity, bool saveChanges = false)
         {
@@ -40,7 +40,7 @@ namespace MyMediaLibrary.Infrastructure.Data
             throw new NotImplementedException();
         }
 
-        public Task<int> UpdateAsync<T>(T entity, params Expression<Func<T, object>>[] navigations) where T : MediaEntity
+        public Task<int> UpdateAsync<T>(T entity, params Expression<Func<T, object>>[] navigations) where T : MediaLibraryEntity
         {
             throw new NotImplementedException();
         }

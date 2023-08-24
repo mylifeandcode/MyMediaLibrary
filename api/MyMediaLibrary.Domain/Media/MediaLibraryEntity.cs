@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyMediaLibrary.Domain
+namespace MyMediaLibrary.Domain.Media
 {
     /// <summary>
     /// The base class for media library entities
     /// </summary>
-    public abstract class MediaEntity
+    public abstract class MediaLibraryEntity
     {
         public Guid Id { get; set; }
         public string Name { get; set; } = "";

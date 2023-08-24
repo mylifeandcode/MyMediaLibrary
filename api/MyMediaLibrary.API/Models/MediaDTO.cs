@@ -1,8 +1,8 @@
-﻿using MyMediaLibrary.Domain;
+﻿using MyMediaLibrary.Domain.Media;
 
 namespace MyMediaLibrary.API.Models
 {
-    public class MediaDTO : DescriptiveMediaEntity
+    public class MediaDTO : DescriptiveMediaEntity //TODO: Rethink this. Using a domain class as a base for a DTO?
     {
         public Guid MediaTypeId { get; set; }
         public Guid FormatId { get; set; }

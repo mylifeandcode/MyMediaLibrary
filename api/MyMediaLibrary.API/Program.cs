@@ -43,7 +43,7 @@ app.UseAuthorization();
 //app.MapControllers();
 
 app.MapGet("/hello", () => { return "Hello world!"; });
-app.MapGet("/login", () => { return "TODO"; });
+app.MapPost("/login", () => { return "TODO"; });
 
 
 app.Run();

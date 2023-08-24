@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyMediaLibrary.Domain
+namespace MyMediaLibrary.Domain.Media
 {
     /// <summary>
     /// A single piece of Media.

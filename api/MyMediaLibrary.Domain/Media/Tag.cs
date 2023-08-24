@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyMediaLibrary.Domain
+namespace MyMediaLibrary.Domain.Media
 {
     /// <summary>
-    /// The format the media exists in.
+    /// A descriptive tag for a piece of media.
     /// </summary>
     /// <example>
-    /// DVD, Blu-ray, CD, mp3, etc.
+    /// 1970s, Superhero, Action, etc.
     /// </example>
-    public class Format : DescriptiveMediaEntity
+    public class Tag : MediaLibraryEntity
     {
     }
 }

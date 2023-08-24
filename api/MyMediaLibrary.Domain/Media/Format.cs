@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyMediaLibrary.Domain
+namespace MyMediaLibrary.Domain.Media
 {
     /// <summary>
-    /// The category of the media
+    /// The format the media exists in.
     /// </summary>
     /// <example>
-    /// Movie, TV, Music, etc
+    /// DVD, Blu-ray, CD, mp3, etc.
     /// </example>
-    public class Category : MediaEntity
+    public class Format : DescriptiveMediaEntity
     {
     }
 }

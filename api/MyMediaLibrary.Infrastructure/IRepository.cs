@@ -1,4 +1,4 @@
-﻿using MyMediaLibrary.Domain;
+﻿using MyMediaLibrary.Domain.Media;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +19,6 @@ namespace MyMediaLibrary.Infrastructure.Data
 
         void SetValues(TEntity target, TEntity source);
 
-        Task<int> UpdateAsync<T>(T entity, params Expression<Func<T, object>>[] navigations) where T : MediaEntity;
+        Task<int> UpdateAsync<T>(T entity, params Expression<Func<T, object>>[] navigations) where T : MediaLibraryEntity;
     }
 }

@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyMediaLibrary.Domain
+namespace MyMediaLibrary.Domain.Media
 {
     /// <summary>
-    /// A descriptive tag for a piece of media.
+    /// The category of the media
     /// </summary>
     /// <example>
-    /// 1970s, Superhero, Action, etc.
+    /// Movie, TV, Music, etc
     /// </example>
-    public class Tag : MediaEntity
+    public class Category : MediaLibraryEntity
     {
     }
 }
