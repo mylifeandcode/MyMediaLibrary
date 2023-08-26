@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace MyMediaLibrary.Application.Security.Models
 {
-    internal class UserCredentials
+    public class UserCredentials
     {
+        public string UserName { get; set; }
+        public string Password { get; set; }
     }
 }

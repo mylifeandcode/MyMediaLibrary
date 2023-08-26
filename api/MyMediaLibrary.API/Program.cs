@@ -1,4 +1,8 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using MyMediaLibrary.Application.Security.Interfaces;
+using MyMediaLibrary.Application.Security.Models;
+using MyMediaLibrary.Application.Security.Services;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSingleton<IAuthService, AuthService>();
 builder.Services.AddAuthentication().AddJwtBearer("Bearer", options =>
 {
     options.TokenValidationParameters = new TokenValidationParameters
@@ -43,7 +48,19 @@ app.UseAuthorization();
 //app.MapControllers();
 
 app.MapGet("/hello", () => { return "Hello world!"; });
-app.MapPost("/login", () => { return "TODO"; });
+app.MapPost(
+    "/login",
+    ([FromServices] IAuthService authService, [FromServices] ITokenService tokenService, [FromBody] UserCredentials credentials) =>
+    {
+        if (authService.IsValidUser(credentials))
+        {
+            return Results.Ok(tokenService.GenerateJwtToken("", "", ""));
+        }
+        else 
+        {
+            return Results.Unauthorized();
+        }
+    });
 
 
 app.Run();

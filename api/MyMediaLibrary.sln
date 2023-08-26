@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMediaLibrary.Domain", "My
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMediaLibrary.Infrastructure", "MyMediaLibrary.Infrastructure\MyMediaLibrary.Infrastructure.csproj", "{219EE2C5-BDEE-41BE-9CBB-0C991D1EB1E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMediaLibrary.UnitTests", "MyMediaLibrary.UnitTests\MyMediaLibrary.UnitTests.csproj", "{5A8ED60F-D752-4428-9D90-01142036E922}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{219EE2C5-BDEE-41BE-9CBB-0C991D1EB1E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{219EE2C5-BDEE-41BE-9CBB-0C991D1EB1E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{219EE2C5-BDEE-41BE-9CBB-0C991D1EB1E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A8ED60F-D752-4428-9D90-01142036E922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A8ED60F-D752-4428-9D90-01142036E922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A8ED60F-D752-4428-9D90-01142036E922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A8ED60F-D752-4428-9D90-01142036E922}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
