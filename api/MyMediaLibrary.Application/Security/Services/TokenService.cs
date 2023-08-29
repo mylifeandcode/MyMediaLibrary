@@ -15,7 +15,7 @@ namespace MyMediaLibrary.Application.Security.Services
         public string GenerateJwtToken(string userId, string username, string role)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes("the-library"); //TODO: Replace with config-driven value
+            var key = Encoding.ASCII.GetBytes("Some temporary key that I will eventually replace with something config-driven"); //TODO: Replace with config-driven value
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new[]

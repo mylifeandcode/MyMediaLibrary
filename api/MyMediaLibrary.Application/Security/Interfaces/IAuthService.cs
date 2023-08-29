@@ -10,5 +10,6 @@ namespace MyMediaLibrary.Application.Security.Interfaces
     public interface IAuthService
     {
         bool IsValidUser(UserCredentials userCredentials);
+        Guid? GetUserId(UserCredentials userCredentials);
     }
 }

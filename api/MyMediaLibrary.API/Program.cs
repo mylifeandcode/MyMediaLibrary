@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using MyMediaLibrary.Application.Security.Interfaces;
@@ -16,6 +17,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IAuthService, AuthService>();
+builder.Services.AddSingleton<ITokenService, TokenService>();
+
+//Add authentication and authorization
 builder.Services.AddAuthentication().AddJwtBearer("Bearer", options =>
 {
     options.TokenValidationParameters = new TokenValidationParameters
@@ -30,7 +34,7 @@ builder.Services.AddAuthentication().AddJwtBearer("Bearer", options =>
 builder.Services.AddAuthorization();
 var app = builder.Build();
 
-//TODO: Add authentication and authorization
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -52,9 +56,11 @@ app.MapPost(
     "/login",
     ([FromServices] IAuthService authService, [FromServices] ITokenService tokenService, [FromBody] UserCredentials credentials) =>
     {
-        if (authService.IsValidUser(credentials))
+        //TODO: Implement
+        Guid? userId = authService.GetUserId(credentials);
+        if (userId.HasValue)
         {
-            return Results.Ok(tokenService.GenerateJwtToken("", "", ""));
+            return Results.Ok(tokenService.GenerateJwtToken(userId.ToString(), credentials.UserName, "Standard"));
         }
         else 
         {
