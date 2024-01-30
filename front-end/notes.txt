@@ -1,0 +1,8 @@
+https://nextjs.org/docs/app/building-your-application/routing
+In version 13, Next.js introduced a new App Router built on React Server Components, which supports shared layouts, 
+nested routing, loading states, error handling, and more.
+
+https://nextjs.org/docs/getting-started/project-structure
+https://next-auth.js.org/configuration/pages#credentials-sign-in
+
+https://jasonwatmore.com/next-js-13-app-router-mongodb-user-rego-and-login-tutorial-with-example
