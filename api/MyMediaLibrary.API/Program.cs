@@ -1,9 +1,13 @@
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using MyMediaLibrary.Application.Security.Interfaces;
 using MyMediaLibrary.Application.Security.Models;
 using MyMediaLibrary.Application.Security.Services;
+using MyMediaLibrary.Domain.Users;
+using MyMediaLibrary.Infrastructure;
+using System;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +18,15 @@ var builder = WebApplication.CreateBuilder(args);
 
 //builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+builder.Services.AddDbContext<MediaLibraryDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//From https://andrewlock.net/exploring-the-dotnet-8-preview-introducing-the-identity-api-endpoints/
+builder.Services
+    .AddIdentityApiEndpoints<MediaLibraryUser>()
+    .AddEntityFrameworkStores<MediaLibraryDbContext>();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IAuthService, AuthService>();

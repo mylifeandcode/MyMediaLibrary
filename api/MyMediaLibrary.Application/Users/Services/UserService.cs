@@ -10,9 +10,9 @@ namespace MyMediaLibrary.Application.Users.Services
 {
     public class UserService
     {
-        private IRepository<User> _userRepository;
+        private IRepository<MediaLibraryUser> _userRepository;
 
-        public UserService(IRepository<User> userRepository)
+        public UserService(IRepository<MediaLibraryUser> userRepository)
         { 
             _userRepository = userRepository;
         }
