@@ -62,6 +62,13 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 
+//TODO: Provide a secure endpoint for this instead
+using (var serviceScope = app.Services.GetRequiredService<IServiceScopeFactory>().CreateScope())
+{
+    serviceScope.ServiceProvider.GetService<MediaLibraryDbContext>().Database.Migrate();
+    //serviceScope.ServiceProvider.GetService<MediaLibraryDbContext>().EnsureSeedData();
+}
+
 //app.MapControllers();
 
 app.MapGet("/hello", () => { return "Hello world!"; });

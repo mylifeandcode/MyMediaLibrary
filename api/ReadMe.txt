@@ -1,0 +1,2 @@
+To add migrations, run them from the /api root as such:
+dotnet ef migrations add (migration name) --project MyMediaLibrary.Infrastructure/MyMediaLibrary.Infrastructure.csproj --startup-project MyMediaLibrary.API/MyMediaLibrary.API.csproj
