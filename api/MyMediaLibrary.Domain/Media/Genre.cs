@@ -15,6 +15,6 @@ namespace MyMediaLibrary.Domain.Media
         /// <example>
         /// Sci-Fi, Rock, Documentary
         /// </example>
-        public IReadOnlyList<Guid> Categories { get; set; } = new List<Guid>();
+        public IReadOnlyList<Category> Categories { get; set; } = new List<Category>();
     }
 }

@@ -11,7 +11,7 @@ namespace MyMediaLibrary.API.Controllers
     {
         // GET: api/<MediaController>
         [HttpGet]
-        public IEnumerable<Media> Get()
+        public IEnumerable<Medium> Get()
         {
             throw new NotImplementedException();
         }
@@ -25,13 +25,13 @@ namespace MyMediaLibrary.API.Controllers
 
         // POST api/<MediaController>
         [HttpPost]
-        public void Post([FromBody] Media value)
+        public void Post([FromBody] Medium value)
         {
         }
 
         // PUT api/<MediaController>/GUID
         [HttpPut("{id}")]
-        public void Put(Guid id, [FromBody] Media value)
+        public void Put(Guid id, [FromBody] Medium value)
         {
         }
 

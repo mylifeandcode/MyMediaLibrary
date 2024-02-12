@@ -14,7 +14,7 @@ namespace MyMediaLibrary.Domain.Media
     /// <example>
     /// The Blu-ray of Avengers: Endgame
     /// </example>
-    public class Media : DescriptiveMediaEntity
+    public class Medium : DescriptiveMediaEntity
     {
         public MediaType MediaType { get; set; }
         public Format Format { get; set; }
